@@ -1,0 +1,44 @@
+{
+  "name": "task-ui",
+  "version": "1.0.0",
+  "description": "React App test 9",
+  "main": "index.js",
+  "author": "Jamie Hutber",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "task-library": "file:../task-library"
+  },
+  "engines": {
+    "node": "8.4.9",
+    "npm": "5.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-react": "^7.0.0-beta.42",
+    "@babel/register": "^7.0.0-beta.42",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^8.0.0-beta",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "hutber-conventional-changelog": "^2.0.1",
+    "react-scripts": "^1.1.4",
+    "task-library": "^1.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./task-ui/node_modules/hutber-conventional-changelog"
+    }
+  }
+}
