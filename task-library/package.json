@@ -1,0 +1,10 @@
+{
+  "name": "task-library",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "engines": {
+    "node": "8.4.9",
+    "npm": "5.6.0"
+  }
+}

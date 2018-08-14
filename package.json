@@ -1,0 +1,13 @@
+{
+  "name": "ui-coding-exercise",
+  "version": "1.0.0",
+  "description": "The intention of this exercise is to assess a candidate's ability to design and develop loosely coupled user interface systems. We pay attention to general JavaScript knowledge, as well as *React 16* and the *node* and *npm* ecosystem.",
+  "scripts": {
+    "server": "npm run create-db && json-server --watch db.json -r routes.json",
+    "create-db": "node scripts/create-db.js > db.json"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.12.2"
+  }
+}
