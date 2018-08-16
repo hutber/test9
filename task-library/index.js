@@ -3,7 +3,7 @@ const sortArray = function(arrayToBeSorted, sortType = "amount"){
 };
 
 const searchArray = function(array, searchTerm, field= "name"){
-  return Array.isArray(array) && array.filter(val => val[field].includes(searchTerm));
+  return Array.isArray(array) && array.filter(val => val[field].toLowerCase().includes(searchTerm.toLowerCase()));
 };
 
 module.exports = {
