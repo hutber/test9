@@ -3,10 +3,10 @@ import Tr from './Tr';
 
 class App extends Component {
   render() {
-    const { columns, rows } = this.props;
+    const { columns, rows, className } = this.props;
 
     return (
-      <table>
+      <table className={className}>
         <thead>
           <tr>
             {columns.map(item => (
